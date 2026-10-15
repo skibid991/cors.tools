@@ -1,0 +1,29 @@
+{
+  "name": "corstools-client",
+  "version": "0.1.0",
+  "description": "Public CORS proxy and webpage reader. Fetch APIs across origins or extract Markdown, text and article JSON with GET requests. JavaScript, Python and Go SDKs.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "homepage": "https://cors.tools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skibid991/cors.tools.git",
+    "directory": "sdk/javascript"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE"
+  ]
+}
